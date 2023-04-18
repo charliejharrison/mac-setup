@@ -9,6 +9,7 @@ Basic setup steps for a new Mac to get it ticking along just hgow I like it.
 This includes the Xcode command line tools. 
  - [ ] Install Homebrew: `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
  - [ ] iTerm2. `brew install iterm2`
+ - [ ] Set iTerm2 navigation shortcuts: follow instructions [here](https://coderwall.com/p/h6yfda/use-and-to-jump-forwards-backwards-words-in-iterm-2-on-os-x)
  - [ ] wget: `brew install wget`
  - [ ] tree, for displaying directory hierarchies: `brew install tree`
  
@@ -20,3 +21,7 @@ This includes the Xcode command line tools.
  - [ ] Download the command line installer: `wget https://repo.anaconda.com/archive/Anaconda3-2023.03-MacOSX-arm64.sh`
  - [ ] Run the script with `bash`: `bash Anaconda3-2023.03-MacOSX-arm64.sh`
 
+## Git setup
+ - [ ] generate a new SSH key: `ssh-keygen`
+ - [ ] Setup multiple profiles: follow instructions [here](https://www.freecodecamp.org/news/how-to-handle-multiple-git-configurations-in-one-machine/)
+ - [ ] 
