@@ -1,7 +1,7 @@
 # mac-setup
 Basic setup steps for a new Mac to get it ticking along just hgow I like it. 
 
-## System preferences
+## System preferences
  - [ ] Trackpad gestures: Mission control swipe up with four fingers, App Exposé swipe down with four fingers
  - [ ] `Accessibility`>`Pointer Control`>`Trackpad Options...`: Enable three-finger drag
 
