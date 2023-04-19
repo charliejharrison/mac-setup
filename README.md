@@ -22,6 +22,5 @@ This includes the Xcode command line tools.
  - [ ] Run the script with `bash`: `bash Anaconda3-2023.03-MacOSX-arm64.sh`
 
 ## Git setup
- - [ ] generate a new SSH key: `ssh-keygen`
- - [ ] Setup multiple profiles: follow instructions [here](https://www.freecodecamp.org/news/how-to-handle-multiple-git-configurations-in-one-machine/)
- - [ ] 
+ - [ ] generate SSH keys and add them to github projects as required: `ssh-keygen`
+ - [ ] Setup multiple `.gitconfig` files and specify the `core.sshCommand`: see [here](https://superuser.com/a/1664624/258941)
