@@ -15,7 +15,10 @@ This includes the Xcode command line tools.
  
 ## Productivity
  - [ ] Maccy - clipboard manager `brew install maccy`
+   - [ ] Maccy preferences: tick "Paste automatically"
+   - [ ] System preferences: add Maccy in `Privacy & Security`>`Accessibility`
  - [ ] Magnet - window manager. Install in the App store
+ 
 
 ## Python: Anaconda
  - [ ] Download the command line installer: `wget https://repo.anaconda.com/archive/Anaconda3-2023.03-MacOSX-arm64.sh`
