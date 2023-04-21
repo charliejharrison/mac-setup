@@ -1,7 +1,7 @@
 # mac-setup
 Basic setup steps for a new Mac to get it ticking along just how I like it. 
 
-## System preferences
+## System Settings
  - [ ] Trackpad gestures: Mission control swipe up with four fingers, App Exposé swipe down with four fingers
  - [ ] `Accessibility`>`Pointer Control`>`Trackpad Options...`: Enable three-finger drag
 
@@ -14,16 +14,19 @@ This includes the Xcode command line tools.
  - [ ] tree, for displaying directory hierarchies: `brew install tree`
  
 ## Productivity
- - [ ] Maccy - clipboard manager `brew install maccy`
+ - [ ] Maccy (clipboard manager): `brew install maccy`
    - [ ] Maccy preferences: tick "Paste automatically"
-   - [ ] System preferences: add Maccy in `Privacy & Security`>`Accessibility`
- - [ ] Magnet - window manager. Install in the App store
- 
+   - [ ] System Settings: add Maccy in `Privacy & Security`>`Accessibility`
+ - [ ] Magnet (window manager): Install in the App store
 
 ## Python: Anaconda
  - [ ] Download the command line installer: `wget https://repo.anaconda.com/archive/Anaconda3-2023.03-MacOSX-arm64.sh`
  - [ ] Run the script with `bash`: `bash Anaconda3-2023.03-MacOSX-arm64.sh`
 
 ## Git setup
- - [ ] Generate SSH keys and add them to github projects as required: `ssh-keygen`
+ - [ ] Generate SSH keys and add them to projects as required: `ssh-keygen`
  - [ ] Setup multiple `.gitconfig` files and specify the `core.sshCommand`: see [here](https://superuser.com/a/1664624/258941)
+
+## Other software
+ - [ ] Microsoft Office: `brew install microsoft-office`
+ - [ ] Slack: `brew install slack`
