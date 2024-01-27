@@ -6,8 +6,11 @@ Basic setup steps for a new Mac to get it ticking along just how I like it.
  - [ ] `Accessibility`>`Pointer Control`>`Trackpad Options...`: Enable three-finger drag
 
 ## Homebrew, terminal, command line tools
-This includes the Xcode command line tools. 
- - [ ] Install Homebrew: `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
+ - [ ] Install Homebrew:
+   - [ ] `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`. This also installs the Xcode command line tools.
+   - [ ] (On Apple Silicon) Add Homebrew install locations to the `$PATH`: `(echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> ~/.zprofile`
+   - [ ] `eval "$(/opt/homebrew/bin/brew shellenv)"`
+   - [ ] Verify installation: `brew doctor`
  - [ ] iTerm2. `brew install iterm2`
  - [ ] Set iTerm2 navigation shortcuts: follow instructions [here](https://coderwall.com/p/h6yfda/use-and-to-jump-forwards-backwards-words-in-iterm-2-on-os-x)
  - [ ] wget: `brew install wget`
@@ -17,8 +20,8 @@ This includes the Xcode command line tools.
  - [ ] Maccy (clipboard manager): `brew install maccy`
    - [ ] Maccy preferences: tick "Paste automatically"
    - [ ] System Settings: add Maccy in `Privacy & Security`>`Accessibility`
- - [ ] Magnet (window manager): Install in the App store
-
+ - [ ] Rectangle (window manager): [download](https://rectangleapp.com/) and install
+       
 ## Python: Anaconda
  - [ ] Download the command line installer: `wget https://repo.anaconda.com/archive/Anaconda3-2023.03-MacOSX-arm64.sh`
  - [ ] Run the script with `bash`: `bash Anaconda3-2023.03-MacOSX-arm64.sh`
