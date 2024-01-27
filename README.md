@@ -1,5 +1,5 @@
 # mac-setup
-Basic setup steps for a new Mac to get it ticking along just how I like it. 
+Basic setup steps for a new Mac to get it ticking along just how I like it. Created in April 2023, partially updated in January 2024.
 
 ## System Settings
  - [ ] Trackpad gestures: Mission control swipe up with four fingers, App Exposé swipe down with four fingers
@@ -23,7 +23,7 @@ Basic setup steps for a new Mac to get it ticking along just how I like it.
  - [ ] Rectangle (window manager): [download](https://rectangleapp.com/) and install
        
 ## Python: Anaconda
- - [ ] Download the command line installer: `wget https://repo.anaconda.com/archive/Anaconda3-2023.03-MacOSX-arm64.sh`
+ - [ ] Download the latest command line installer from [anaconda.com](https://www.anaconda.com/download): e.g. `wget https://repo.anaconda.com/archive/Anaconda3-2023.09-0-MacOSX-arm64.sh`
  - [ ] Run the script with `bash`: `bash Anaconda3-2023.03-MacOSX-arm64.sh`
 
 ## Git setup
